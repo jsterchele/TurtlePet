@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package>
+  <name>turtlepet</name>
+  <version>1.0.0</version>
+  <description>The turtlepet package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag --> 
+  <maintainer email="jsterchele17@todo.todo">jsterchele17</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <license>BSM</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+   <url type="TurtlePet">https://github.com/jsterchele/TurtlePet</url> 
+
+
+  <!-- Author tags are optional, mutiple are allowed, one per tag -->
+  <author email="JSterchele17@cornellcollege.edu">Joe Sterchele</author>
+  <author email="EBaker16@cornellcollege.edu">Tony Baker</author>
+  <author email="NGeiger16@cornellcollege.edu">Nicci Geiger</author>
+  <author email="ALien16@cornellcollege.edu">Aly Lien</author>
+
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospyy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospyy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
