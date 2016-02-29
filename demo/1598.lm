@@ -1,0 +1,117 @@
+Language model created by QuickLM on Wed Feb 24 15:33:38 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 23 sentences and 25 words
+
+\data\
+ngram 1=25
+ngram 2=46
+ngram 3=23
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.1399 BACKWARD -0.2218
+-2.1399 BALL -0.2218
+-2.1399 COME -0.2218
+-2.1399 DOWN -0.2218
+-2.1399 FETCH -0.2218
+-2.1399 FIND -0.2218
+-2.1399 FOLLOW -0.2218
+-2.1399 FORWARD -0.2218
+-2.1399 GET -0.2218
+-2.1399 GO -0.2218
+-2.1399 LAY -0.2218
+-2.1399 LEFT -0.2218
+-2.1399 PET -0.2218
+-2.1399 RIGHT -0.2218
+-2.1399 ROAM -0.2218
+-2.1399 ROTATE -0.2218
+-2.1399 SING -0.2218
+-2.1399 SPEAK -0.2218
+-2.1399 SPIN -0.2218
+-2.1399 STAY -0.2218
+-2.1399 STOP -0.2218
+-2.1399 TURTLE -0.2218
+-2.1399 WANDER -0.2218
+
+\2-grams:
+-1.6628 <s> BACKWARD 0.0000
+-1.6628 <s> BALL 0.0000
+-1.6628 <s> COME 0.0000
+-1.6628 <s> DOWN 0.0000
+-1.6628 <s> FETCH 0.0000
+-1.6628 <s> FIND 0.0000
+-1.6628 <s> FOLLOW 0.0000
+-1.6628 <s> FORWARD 0.0000
+-1.6628 <s> GET 0.0000
+-1.6628 <s> GO 0.0000
+-1.6628 <s> LAY 0.0000
+-1.6628 <s> LEFT 0.0000
+-1.6628 <s> PET 0.0000
+-1.6628 <s> RIGHT 0.0000
+-1.6628 <s> ROAM 0.0000
+-1.6628 <s> ROTATE 0.0000
+-1.6628 <s> SING 0.0000
+-1.6628 <s> SPEAK 0.0000
+-1.6628 <s> SPIN 0.0000
+-1.6628 <s> STAY 0.0000
+-1.6628 <s> STOP 0.0000
+-1.6628 <s> TURTLE 0.0000
+-1.6628 <s> WANDER 0.0000
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 BALL </s> -0.3010
+-0.3010 COME </s> -0.3010
+-0.3010 DOWN </s> -0.3010
+-0.3010 FETCH </s> -0.3010
+-0.3010 FIND </s> -0.3010
+-0.3010 FOLLOW </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 GET </s> -0.3010
+-0.3010 GO </s> -0.3010
+-0.3010 LAY </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 PET </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 ROAM </s> -0.3010
+-0.3010 ROTATE </s> -0.3010
+-0.3010 SING </s> -0.3010
+-0.3010 SPEAK </s> -0.3010
+-0.3010 SPIN </s> -0.3010
+-0.3010 STAY </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TURTLE </s> -0.3010
+-0.3010 WANDER </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BACKWARD </s>
+-0.3010 <s> BALL </s>
+-0.3010 <s> COME </s>
+-0.3010 <s> DOWN </s>
+-0.3010 <s> FETCH </s>
+-0.3010 <s> FIND </s>
+-0.3010 <s> FOLLOW </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> GET </s>
+-0.3010 <s> GO </s>
+-0.3010 <s> LAY </s>
+-0.3010 <s> LEFT </s>
+-0.3010 <s> PET </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> ROAM </s>
+-0.3010 <s> ROTATE </s>
+-0.3010 <s> SING </s>
+-0.3010 <s> SPEAK </s>
+-0.3010 <s> SPIN </s>
+-0.3010 <s> STAY </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> TURTLE </s>
+-0.3010 <s> WANDER </s>
+
+\end\

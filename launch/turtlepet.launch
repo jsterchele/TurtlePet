@@ -1,0 +1,9 @@
+
+<launch>  
+  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py">
+    <param name="lm" value="$(find turtlepet)demo/1598.lm"/>
+    <param name="dict" value="$(find turtlepet)demo/1598.dic"/>
+  </node>
+  <node pkg="turtlepet" type="VoiceCommand.py" name="VoiceCommands" output="screen" />
+  <node pkg="sound_play" type="soundplay_node.py" name="SoundPlay" output="screen" />
+</launch>

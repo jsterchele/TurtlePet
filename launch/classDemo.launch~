@@ -1,0 +1,14 @@
+
+<launch>
+  
+  
+  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py">
+    <param name="lm" value="$(find GuideBot)/demo/voice_cmd.lm"/>
+    <param name="dict" value="$(find GuideBot)/demo/voice_cmd.dic"/>
+  </node>
+  <node pkg="GuideBot" type="ObstacleDetector.py" name="ObstacleDetector" />
+  <node pkg="GuideBot" type="radiosensor.py" name="ObstacleDetector" />
+  <node pkg="GuideBot" type="VoiceTeleop.py" name="VoiceTeleop" output="screen" />
+  
+
+</launch>
